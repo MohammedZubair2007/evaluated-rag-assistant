@@ -1,0 +1,246 @@
+{
+  "total_questions": 12,
+  "correct_abstention_decisions": 12,
+  "abstention_decision_accuracy": 1.0,
+  "correct_answer_presence_checks": 12,
+  "answer_presence_accuracy": 1.0,
+  "correct_citation_checks": 11,
+  "citation_check_accuracy": 0.9166666666666666,
+  "results": [
+    {
+      "id": 1,
+      "question": "Which machine learning algorithms should be used?",
+      "expected_answerable": true,
+      "expected_answer": "Select at least two appropriate machine learning algorithms for the problem and perform parameter tuning.",
+      "expected_pages": [
+        3
+      ],
+      "answer": "Select at least two appropriate machine learning algorithms for your problem.",
+      "citations": [],
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": false
+    },
+    {
+      "id": 2,
+      "question": "What model evaluation metrics should be explained?",
+      "expected_answerable": true,
+      "expected_answer": "Explain the evaluation metrics chosen to measure model performance, such as accuracy and precision for classification, and R-squared, MAE, and RMSE for regression.",
+      "expected_pages": [
+        3
+      ],
+      "answer": "Accuracy, Precision, Recall, F1-Score for classification; R-squared, MAE, RMSE for regression",
+      "citations": [
+        3
+      ],
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 3,
+      "question": "Which correlation test should be performed?",
+      "expected_answerable": true,
+      "expected_answer": "Perform a Pearson or Spearman correlation test between input features and the target KPI.",
+      "expected_pages": [
+        2
+      ],
+      "answer": "Pearson or Spearman Correlation test",
+      "citations": [
+        2
+      ],
+      "retrieved_pages": [
+        2
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 4,
+      "question": "How should the dataset be split for model evaluation?",
+      "expected_answerable": true,
+      "expected_answer": "Use a train-test split only.",
+      "expected_pages": [
+        3
+      ],
+      "answer": "Use train-test split only.",
+      "citations": [
+        3
+      ],
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 5,
+      "question": "What is the university's official name?",
+      "expected_answerable": false,
+      "expected_answer": null,
+      "expected_pages": [],
+      "answer": "I couldn't find enough evidence in the provided document to answer this question.",
+      "citations": [],
+      "retrieved_pages": [],
+      "abstained": true,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 6,
+      "question": "What is the student's final grade?",
+      "expected_answerable": false,
+      "expected_answer": null,
+      "expected_pages": [],
+      "answer": "I couldn't find enough evidence in the provided document to answer this question.",
+      "citations": [],
+      "retrieved_pages": [
+        1
+      ],
+      "abstained": true,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 7,
+      "question": "Which three attributes must be used to calculate the KPI?",
+      "expected_answerable": false,
+      "expected_answer": null,
+      "expected_pages": [],
+      "answer": "The document states that the KPI must be derived from at least three attributes, but it does not specify which three attributes must be used.",
+      "citations": [
+        1,
+        2
+      ],
+      "retrieved_pages": [
+        1,
+        2
+      ],
+      "abstained": true,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 8,
+      "question": "What is the exact accuracy achieved by the required machine learning models?",
+      "expected_answerable": false,
+      "expected_answer": null,
+      "expected_pages": [],
+      "answer": "I couldn't find enough evidence in the provided document to answer this question.",
+      "citations": [],
+      "retrieved_pages": [
+        1,
+        3
+      ],
+      "abstained": true,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 9,
+      "question": "How many machine learning algorithms must be selected at minimum?",
+      "expected_answerable": true,
+      "expected_answer": "At least two appropriate machine learning algorithms must be selected.",
+      "expected_pages": [
+        3
+      ],
+      "answer": "at least two",
+      "citations": [
+        3
+      ],
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 10,
+      "question": "Which correlation methods are mentioned in the instructions?",
+      "expected_answerable": true,
+      "expected_answer": "Pearson or Spearman correlation.",
+      "expected_pages": [
+        2
+      ],
+      "answer": "Pearson or Spearman Correlation test",
+      "citations": [
+        2
+      ],
+      "retrieved_pages": [
+        2
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 11,
+      "question": "Is feature filtering using correlation mandatory?",
+      "expected_answerable": true,
+      "expected_answer": "No. Feature filtering using correlation is optional, although a Pearson or Spearman correlation test between input features and the target KPI is required.",
+      "expected_pages": [
+        2
+      ],
+      "answer": "Feature filtering using correlation is optional. However, the instructions separately specify a Pearson or Spearman correlation test between input features and the target KPI.",
+      "citations": [
+        2
+      ],
+      "retrieved_pages": [
+        2
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    },
+    {
+      "id": 12,
+      "question": "What is the maximum word count for the report?",
+      "expected_answerable": true,
+      "expected_answer": "The report has a maximum of 1000 words, with a tolerance of plus or minus 10%.",
+      "expected_pages": [
+        1
+      ],
+      "answer": "1000",
+      "citations": [
+        1
+      ],
+      "retrieved_pages": [
+        1,
+        2,
+        3
+      ],
+      "abstained": false,
+      "abstention_correct": true,
+      "answer_presence_correct": true,
+      "citation_correct": true
+    }
+  ]
+}
